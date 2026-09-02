@@ -10,3 +10,4 @@ venv
 # files
 *.pyc
 *.pyd
+*.zip

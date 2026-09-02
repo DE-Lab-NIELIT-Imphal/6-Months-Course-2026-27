@@ -1,0 +1,2 @@
+The Drone is in GUIDED mode
+Starting autonomous flight
