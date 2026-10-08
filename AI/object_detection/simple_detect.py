@@ -33,7 +33,7 @@ def run_webcam_detection() -> None:
     print("Starting webcam detection on CPU...")
     print("Press 'q', 'x', or 'ESC' to exit.")
 
-    results = model.predict(source=1, device="cpu", stream=True)
+    results = model.predict(source=0, device="cpu", stream=True)
 
     for result in results:
         frame: np.ndarray = result.plot()
